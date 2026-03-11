@@ -31,7 +31,7 @@ az login
 Edit `dab-config.json` and replace the placeholders in the connection string:
 
 ```
-Server=tcp:<your-server>.msit-database.fabric.microsoft.com,1433;Initial Catalog=<your-database>;...
+Server=tcp:<your-server>.<org-name>-database.fabric.microsoft.com,1433;Initial Catalog=<your-database>;...
 ```
 
 You can find your server and database names in the Fabric portal under your SQL database's connection strings.
