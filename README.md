@@ -73,7 +73,7 @@ Key flags explained:
 docker logs -f dab-fabric
 
 # Test the API
-curl -s http://localhost:5001/api/authors | jq
+curl -s http://localhost:5001/api/table-name | jq
 ```
 
 ## Alternative: Run DAB CLI directly (no Docker)
@@ -112,7 +112,7 @@ The connection string uses [Microsoft.Data.SqlClient](https://learn.microsoft.co
 
 ## DAB Configuration
 
-The `dab-config.json` exposes the `dbo.authors` table as a read-only REST endpoint at `/api/authors`. To add more entities or enable GraphQL/MCP, see the [DAB configuration docs](https://learn.microsoft.com/en-us/azure/data-api-builder/configuration/).
+The `dab-config.json` exposes the `dbo.table-name` table as a read-only REST endpoint at `/api/table-name`. To add more entities or enable GraphQL/MCP, see the [DAB configuration docs](https://learn.microsoft.com/en-us/azure/data-api-builder/configuration/).
 
 ## Why Not Managed Identity?
 
