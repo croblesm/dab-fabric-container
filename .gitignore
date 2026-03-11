@@ -1,0 +1,5 @@
+# Azure credentials - never commit these
+.azure/
+msal_token_cache.json
+azureProfile.json
+
