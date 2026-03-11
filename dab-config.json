@@ -29,7 +29,7 @@
     "authors": {
       "source": {
         "type": "table",
-        "object": "dbo.authors"
+        "object": "dbo.<table-name>"
       },
       "permissions": [
         {
